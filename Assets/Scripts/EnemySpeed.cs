@@ -9,7 +9,8 @@ public class EnemySpeed : MonoBehaviour
     private Vector3 playerPos;
     private Vector3 enemyPos;
     private float distanceSqrd;
-    public float orbitSpeed = 20f;
+    public float baseOrbitSpeed = 5f;
+    public float currentOrbitSpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +25,7 @@ public class EnemySpeed : MonoBehaviour
         playerPos = player.transform.position;
         distanceSqrd = (enemyPos - playerPos).sqrMagnitude;
 
-        orbitSpeed = distanceSqrd * orbitSpeed;
+        currentOrbitSpeed = distanceSqrd * baseOrbitSpeed;
 
     }
 }

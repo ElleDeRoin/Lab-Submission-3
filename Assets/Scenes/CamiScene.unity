@@ -274,7 +274,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1918408412}
-  orbitSpeed: 20
+  baseOrbitSpeed: 5
+  currentOrbitSpeed: 0
 --- !u!114 &423225257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -425,7 +426,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1918408412}
-  orbitSpeed: 20
+  baseOrbitSpeed: 5
+  currentOrbitSpeed: 0
 --- !u!114 &582438249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -525,7 +527,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1918408412}
-  orbitSpeed: 20
+  baseOrbitSpeed: 5
+  currentOrbitSpeed: 0
 --- !u!114 &1153503417
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -21,7 +21,7 @@ public class EnemyOrbit : MonoBehaviour
     {
         if (enemySpeed != null)
         {
-            currentAngle += enemySpeed.orbitSpeed * Time.deltaTime;
+            currentAngle += enemySpeed.currentOrbitSpeed * Time.deltaTime;
 
             Quaternion rotation = Quaternion.Euler(0f, 0f, currentAngle);
 
